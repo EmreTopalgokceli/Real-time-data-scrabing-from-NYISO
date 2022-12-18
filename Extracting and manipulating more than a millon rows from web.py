@@ -70,4 +70,4 @@ dfs["source"] = "NYISO"         # Add a source column for all.
 dfs.info()        # For last check.
 
 # Write to a csv file.
-dfs.to_csv("Codding_Assessment_EMRE_TOPALGOKCELI.csv")
+dfs.to_csv("data_EMRE_TOPALGOKCELI.csv")
