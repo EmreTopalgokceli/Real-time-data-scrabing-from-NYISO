@@ -9,7 +9,7 @@ This repository contains a script that extracts and transforms data from the New
 * Urllib library
 
 # Usage
-To use the script, simply run the Extracting and manipulating more than a millon rows from web.py file. The script will extract data from NYISO website and save the output as a csv file named "data_EMRE_TOPALGOKCELI.csv" in the same directory.
+To use the script, simply run the nyiso_extraction.py file. The script will extract data from NYISO website and save the output as a csv file named "data_EMRE_TOPALGOKCELI.csv" in the same directory.
 
 # Description
 The script extracts data from NYISO's public data repository for the first twelve months of 2005, which are stored as zip files containing CSV files. The script iterates through the zip files and reads all the CSV files after removing the zipped structure. The data is then combined into a single Pandas DataFrame.
